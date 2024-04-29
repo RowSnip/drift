@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    gap: 16px;
+    background: lightgreen;
+ }
+ 
+ .card{
+    display: flex;
+    background: lightgray;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    width: fit-content;
+    height: 100%;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+    text-align: center;
+ }
+ 
+ .card h1, .card h3{
+    margin: 0;
+    color: crimson;
+ }
+ 
+ .card h1{
+    font-size: large;
+ 
+ }
+ 
+ .card h3{
+    font-size: medium;
+    font-weight: lighter;
+ }
+ 
+ .card img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+ }
